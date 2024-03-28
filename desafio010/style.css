@@ -1,0 +1,238 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:"idroid";
+    src: url("idroid.otf") format("opentype");}
+
+    @font-face {
+       
+     font-family:"uni";
+     src: url(Uni_acc.ttf) format("truetype");}
+
+    @font-face {
+        font-family:"bebas";
+        src: url(BebasNeue-Regular.otf) format(opentype);
+    }
+        
+                    
+                
+            
+                body{
+                     background-color: #5D7FE0;
+                    text-align: center;
+                    font-size: 16px;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    margin: px;
+                    margin: auto;
+                    width: 100%;
+                  
+            
+                    
+                }
+                header{
+                   background-image:linear-gradient(to top,#0c02ca,#2B95E0 );
+                   
+                   
+                    
+                }
+                header >h1{
+                   
+                   font-family: "bebas";
+                   font-size: 3em;
+                   margin: auto;
+                   margin: 0px;
+                   padding: 0px;
+                   color: white;
+                   text-shadow: 1px 3px 1px rgba(0, 0, 0, 0.452);
+                   }
+                   
+                header p{
+                    color: white;
+                    
+                }
+                        
+                    
+
+                      
+                      
+                      
+                        
+                nav>a{
+                    color: white;
+                    text-decoration: none;
+                    margin-left: 30px;
+                    padding: 3px;
+                    font-size: 16px;
+                   
+                }
+                nav>a:hover{
+                    transition-duration: .4s;
+                    border-radius: 5px;
+                    color: #0a01b3;
+                    }
+                    
+                   
+                   
+                   
+            
+                nav{
+                    text-align: left;
+                    background-color: #0d01ff;
+                   padding: 5px;
+                   margin: -16px;
+                   margin-top: 25px;
+                   box-shadow: 1px -1px 4px rgba(0, 0, 0, 0.534);
+                  
+                }
+               
+                    
+                 h1{
+                    font-family: "idroid";
+                   
+                }
+                
+                h2{
+                    font-family: "idroid";
+                color: #0d01ff;
+                background-image: linear-gradient(30deg,rgba(0, 0, 255, 0.493), white);
+                    text-align: left;
+                
+                }
+                
+            
+            
+                main{ background-color: white; 
+                  
+                    margin: auto;
+                    font-weight: bold;
+                    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.61);
+                    border-bottom-left-radius: 10px;
+                    border-bottom-right-radius:10px;
+                    min-width: 320px;
+                    max-width: 1000px;
+                   
+                } 
+
+                main p{
+                    text-indent: 30px;
+                    line-height: 2em;
+                } 
+                   
+                main strong{
+                    color:#0d01ff;
+                    font-weight: bolder;
+                    font-size: 17px;
+                }
+
+                   
+                  a.externo::after{
+                    content: "\0020\1F517";
+                  } 
+                
+                  main a {
+                    text-decoration: none;
+                    color: #0d01ff;
+                    background-color: #2b95e075;
+                  }
+
+                   
+
+                img{
+                    width: 100%;
+                   
+                }
+                section{
+                   margin:auto;
+                   margin-left: 10px;
+                   margin-right: 10px;
+                   margin: 0px -20px 0px 0px -20px ;
+                }
+                
+                div{
+                    background-color: #0d01ff;
+                }
+                div.video{
+                    background-color: #0a01b3;
+                    margin: 0px -10px;
+                    padding: 20px  #0a01b3;
+                    padding-bottom: 58%;
+                    position: relative;
+                }
+                .video>iframe{
+                       position: absolute;
+                       top: 5%;
+                       left: 5%;
+                       width: 90%;
+                       height: 90%;
+
+                }
+
+
+            section>h1{
+                color: #0d01ff;
+                padding-top: 30px;
+                text-align: left;
+            }
+            section>p{
+                text-align:left;
+                
+            }
+                 
+              footer{
+                background-color: #0c02ca;
+                color: white;
+                margin: -20px;
+                margin-top: 15px;
+                padding: 0px;
+                font-size: 17px;
+                font-weight: lighter;
+              }   
+                  
+                aside{
+                    background-color:#3666e98a;
+                    margin: 10px;
+                    border-top-left-radius: 10px;
+                    border-top-right-radius:10px;
+                    
+                }
+                aside>h3{
+                    background-color: #194ee0b9;
+                    text-align: left;
+                    font-weight: lighter;
+                    color:white;
+                    border-top-left-radius: 10px;
+                    border-top-right-radius:10px;
+                    padding: 7px;
+                   
+                }
+              aside> ul{
+                list-style-type: "\2714\0020\0020";
+                text-align: left;
+                columns: 2;
+               }
+               footer>a{
+                font-size: 17px;
+               }
+
+             
+
+              #rod>a{
+                color: white;
+            }
+
+
+            #rod>a:hover{
+               background-color: #194ee060;
+               
+               font-size: 18px;
+            }
+            
+    
+            
+            
+        
+    
+       
+    
+    
+
