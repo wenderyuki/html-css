@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colgroup></title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+    }
+
+    th,td{
+        border: solid black 1px;
+        padding: 5px;
+        padding-right: 200px;
+    }
+
+    .nome{
+        background-color: gray;
+    }
+.sexo{
+    background-color: aqua;
+}
+.idade{
+    background-color: blueviolet;
+}
+.prof{
+    background-color: blue;
+}
+div{
+    overflow-x: auto;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <table>
+            <colgroup>
+                <col class="nome">
+                <col class="sexo">
+                <col class="idade">
+                <col class="prof">
+            </colgroup>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+            <tr>
+                <td>Marcos</td>
+                <td>M</td>
+                <td>26</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Júlio</td>
+                <td>M</td>
+                <td>30</td>
+                <td>Engenheiro civil</td>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Veterinária</td>
+            </tr>
+            <tr>
+                <td>Bárbara</td>
+                <td>F</td>
+                <td>20</td>
+                <td>Estágiaria</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
