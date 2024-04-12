@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Filmes favoritos</title>
+</head>
+<style>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    border-collapse: collapse;
+    font-weight: bold;
+    width: 700px;
+    margin: auto;
+
+}
+caption{
+    padding: 20px;
+    background-color: rgb(88, 88, 88);
+    border: solid black 2px;
+    border-bottom: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+td,th{
+    border: solid black 2px;
+    padding: 10px;
+    background-color: rgb(182, 181, 181);
+}
+thead th{
+    background-color: rgba(119, 119, 119, 0.726);
+}
+</style>
+<body>
+    <table>
+        <caption>Filmes preferidos</caption>
+        <thead>
+           <tr>
+               <th scope="row">Grupo</th>
+               <th>Nomes</th>
+               <th colspan="3n">Filmes</th>
+           </tr>
+        </thead>
+           <tbody>
+           <tr>
+               <th rowspan="3en" scope="ro">Mulheres</th>
+               <td>Ana Maria Santos</td>
+               <td>Alien</td>
+               <td>Rambo</td>
+               <td>Vingadores</td>
+           </tr>
+
+           <tr>
+                <td>Beatriz Souza</td>
+                <td>Hulk</td>
+                <td>Inception</td>
+                <td>Batman</td>
+           </tr>
+           <tr>
+                <td>Cláudia Melo</td>
+                <td>Oblivion</td>
+                <td>Matrix</td>
+                <td>Big Hero</td>
+           </tr>
+
+           <tr>
+                <th rowspan="3n">Homens</th>
+                <td>Bruno Mendonça</td>
+                <td>Intocáveis</td>
+                <td>Amnésia</td>
+                <td>Gladiador</td>
+           </tr>
+           <tr>
+            <td>Daniel Lourenço</td>
+            <td>Wall-E</td>
+            <td>Oldboy</td>
+            <td>Dangal</td>
+           </tr>
+           <tr>
+            <td>Fabiano Mota</td>
+            <td>Satar Wars 5</td>
+            <td>Taxi Driver</td>
+            <td>Toy Story</td>
+           </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>
